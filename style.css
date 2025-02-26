@@ -23,3 +23,39 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+
+.cat-1, .cat-2, .cat-3 {
+    padding: 10px 30px;
+    color: white;
+    border-radius: 12px;
+}
+
+.cat-1 {
+    background-image: linear-gradient(to right, orange 50%, rgb(228, 214, 16) 100%);
+}
+
+.cat-2 {
+    /* background-color: #ff136f; */
+    background-image: linear-gradient(to right, rgb(248, 47, 148) 0%, #ff136f 40%);
+}
+
+.cat-3 {
+    background-color: blue;
+    background-image: linear-gradient(to right, rgb(54, 60, 153) 0%, blue 100%);
+}
+
+.cat img {
+    width: 120px;
+}
+
+
+
+/* //////////////////////////////////////////////// Equal to or below 991px////////////////////////////////// */
+@media screen and (max-width: 991px) {
+    .cat h1 {
+        font-size: 180%;
+    }
+    .cat img {
+        width: 80px;
+    }
+}
