@@ -19,9 +19,10 @@
 .buy-btn {
     background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
     color: white;
-    border: none;
+    border: transparent;
     padding: 9px 25px;
-    cursor: pointer;
+    /* cursor: pointer; */
+    border-radius: 10px;
 }
 
 .cat-1, .cat-2, .cat-3 {
@@ -48,7 +49,16 @@
     width: 120px;
 }
 
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
 
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
 
 /* //////////////////////////////////////////////// Equal to or below 991px////////////////////////////////// */
 @media screen and (max-width: 991px) {
