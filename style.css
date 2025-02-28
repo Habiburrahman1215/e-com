@@ -60,6 +60,20 @@
     border-top: none;
 }
 
+#Contact {
+    background-color: #fceae8;
+    padding: 80px 50px;
+}
+
+#Contact h6 {
+    color: gray;
+}
+
+#email {
+    margin-bottom: 10px;
+}
+
+
 /* //////////////////////////////////////////////// Equal to or below 991px////////////////////////////////// */
 @media screen and (max-width: 991px) {
     .cat h1 {
